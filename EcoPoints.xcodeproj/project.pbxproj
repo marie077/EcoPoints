@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E870515A9DBCC667C6F8CE4 /* Pods_EcoPoints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9952B985F151608520C9E6 /* Pods_EcoPoints.framework */; };
+		9511D83621D5B76F00C604B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9511D83521D5B76F00C604B4 /* GoogleService-Info.plist */; };
 		9518D66021D48B9500E047A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D65F21D48B9500E047A6 /* AppDelegate.swift */; };
 		9518D66221D48B9500E047A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D66121D48B9500E047A6 /* ViewController.swift */; };
 		9518D66521D48B9500E047A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9518D66321D48B9500E047A6 /* Main.storyboard */; };
 		9518D66721D48B9800E047A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9518D66621D48B9800E047A6 /* Assets.xcassets */; };
 		9518D66A21D48B9800E047A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9518D66821D48B9800E047A6 /* LaunchScreen.storyboard */; };
+		9518D67221D5797000E047A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67121D5797000E047A6 /* LoginViewController.swift */; };
+		9518D67421D579BD00E047A6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67321D579BD00E047A6 /* SignUpViewController.swift */; };
+		9518D67621D579D200E047A6 /* ProfileMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67521D579D200E047A6 /* ProfileMainViewController.swift */; };
+		9518D67821D579EF00E047A6 /* BikeWalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67721D579EF00E047A6 /* BikeWalkViewController.swift */; };
+		9518D67A21D579FE00E047A6 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67921D579FE00E047A6 /* DestinationViewController.swift */; };
+		9518D67C21D57A0B00E047A6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67B21D57A0B00E047A6 /* MapViewController.swift */; };
+		9518D67E21D57A2E00E047A6 /* EarnedPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67D21D57A2E00E047A6 /* EarnedPointsViewController.swift */; };
+		9518D68021D57A4600E047A6 /* EcoPurchaseHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D67F21D57A4600E047A6 /* EcoPurchaseHomeViewController.swift */; };
+		9518D68421D57A7500E047A6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68321D57A7500E047A6 /* CameraViewController.swift */; };
+		9518D68621D57A9400E047A6 /* VerifyingReciptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68521D57A9400E047A6 /* VerifyingReciptViewController.swift */; };
+		9518D68821D57AB300E047A6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68721D57AB300E047A6 /* SettingsViewController.swift */; };
+		9518D68B21D5900A00E047A6 /* BankAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68A21D5900A00E047A6 /* BankAccountViewController.swift */; };
+		9518D68D21D5901D00E047A6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68C21D5901D00E047A6 /* HistoryViewController.swift */; };
+		9518D68F21D5902B00E047A6 /* ChangePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68E21D5902B00E047A6 /* ChangePassViewController.swift */; };
+		9518D69121D5903500E047A6 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D69021D5903500E047A6 /* ChangeEmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F53D1881AD684DF7F419ED1 /* Pods-EcoPoints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoPoints.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcoPoints/Pods-EcoPoints.debug.xcconfig"; sourceTree = "<group>"; };
+		632E1854C2428DE5B4FAC988 /* Pods-EcoPoints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoPoints.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcoPoints/Pods-EcoPoints.release.xcconfig"; sourceTree = "<group>"; };
+		8B9952B985F151608520C9E6 /* Pods_EcoPoints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoPoints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9511D83521D5B76F00C604B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9518D65C21D48B9500E047A6 /* EcoPoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoPoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9518D65F21D48B9500E047A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9518D66121D48B9500E047A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,21 @@
 		9518D66621D48B9800E047A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9518D66921D48B9800E047A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9518D66B21D48B9800E047A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9518D67121D5797000E047A6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9518D67321D579BD00E047A6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9518D67521D579D200E047A6 /* ProfileMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainViewController.swift; sourceTree = "<group>"; };
+		9518D67721D579EF00E047A6 /* BikeWalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeWalkViewController.swift; sourceTree = "<group>"; };
+		9518D67921D579FE00E047A6 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		9518D67B21D57A0B00E047A6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9518D67D21D57A2E00E047A6 /* EarnedPointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnedPointsViewController.swift; sourceTree = "<group>"; };
+		9518D67F21D57A4600E047A6 /* EcoPurchaseHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoPurchaseHomeViewController.swift; sourceTree = "<group>"; };
+		9518D68321D57A7500E047A6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9518D68521D57A9400E047A6 /* VerifyingReciptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyingReciptViewController.swift; sourceTree = "<group>"; };
+		9518D68721D57AB300E047A6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9518D68A21D5900A00E047A6 /* BankAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountViewController.swift; sourceTree = "<group>"; };
+		9518D68C21D5901D00E047A6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9518D68E21D5902B00E047A6 /* ChangePassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassViewController.swift; sourceTree = "<group>"; };
+		9518D69021D5903500E047A6 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E870515A9DBCC667C6F8CE4 /* Pods_EcoPoints.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B158EA00855541EDA3AA0CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9952B985F151608520C9E6 /* Pods_EcoPoints.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9518D65321D48B9500E047A6 = {
 			isa = PBXGroup;
 			children = (
 				9518D65E21D48B9500E047A6 /* EcoPoints */,
 				9518D65D21D48B9500E047A6 /* Products */,
+				F62D0AF6A4DA4D1EFACA5DFA /* Pods */,
+				0B158EA00855541EDA3AA0CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,47 @@
 		9518D65E21D48B9500E047A6 /* EcoPoints */ = {
 			isa = PBXGroup;
 			children = (
+				9511D83521D5B76F00C604B4 /* GoogleService-Info.plist */,
+				9518D69221D5904200E047A6 /* View Controllers */,
 				9518D65F21D48B9500E047A6 /* AppDelegate.swift */,
-				9518D66121D48B9500E047A6 /* ViewController.swift */,
 				9518D66321D48B9500E047A6 /* Main.storyboard */,
 				9518D66621D48B9800E047A6 /* Assets.xcassets */,
 				9518D66821D48B9800E047A6 /* LaunchScreen.storyboard */,
 				9518D66B21D48B9800E047A6 /* Info.plist */,
 			);
 			path = EcoPoints;
+			sourceTree = "<group>";
+		};
+		9518D69221D5904200E047A6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9518D68A21D5900A00E047A6 /* BankAccountViewController.swift */,
+				9518D68C21D5901D00E047A6 /* HistoryViewController.swift */,
+				9518D68E21D5902B00E047A6 /* ChangePassViewController.swift */,
+				9518D67121D5797000E047A6 /* LoginViewController.swift */,
+				9518D67321D579BD00E047A6 /* SignUpViewController.swift */,
+				9518D67F21D57A4600E047A6 /* EcoPurchaseHomeViewController.swift */,
+				9518D69021D5903500E047A6 /* ChangeEmailViewController.swift */,
+				9518D68321D57A7500E047A6 /* CameraViewController.swift */,
+				9518D67721D579EF00E047A6 /* BikeWalkViewController.swift */,
+				9518D66121D48B9500E047A6 /* ViewController.swift */,
+				9518D67521D579D200E047A6 /* ProfileMainViewController.swift */,
+				9518D68521D57A9400E047A6 /* VerifyingReciptViewController.swift */,
+				9518D67921D579FE00E047A6 /* DestinationViewController.swift */,
+				9518D67B21D57A0B00E047A6 /* MapViewController.swift */,
+				9518D68721D57AB300E047A6 /* SettingsViewController.swift */,
+				9518D67D21D57A2E00E047A6 /* EarnedPointsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F62D0AF6A4DA4D1EFACA5DFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F53D1881AD684DF7F419ED1 /* Pods-EcoPoints.debug.xcconfig */,
+				632E1854C2428DE5B4FAC988 /* Pods-EcoPoints.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9518D66E21D48B9800E047A6 /* Build configuration list for PBXNativeTarget "EcoPoints" */;
 			buildPhases = (
+				B1E961C7C944CACD98748257 /* [CP] Check Pods Manifest.lock */,
 				9518D65821D48B9500E047A6 /* Sources */,
 				9518D65921D48B9500E047A6 /* Frameworks */,
 				9518D65A21D48B9500E047A6 /* Resources */,
+				A2B580E3D10543EF32333EAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9511D83621D5B76F00C604B4 /* GoogleService-Info.plist in Resources */,
 				9518D66A21D48B9800E047A6 /* LaunchScreen.storyboard in Resources */,
 				9518D66721D48B9800E047A6 /* Assets.xcassets in Resources */,
 				9518D66521D48B9500E047A6 /* Main.storyboard in Resources */,
@@ -130,13 +213,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2B580E3D10543EF32333EAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EcoPoints/Pods-EcoPoints-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoPoints/Pods-EcoPoints-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E961C7C944CACD98748257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoPoints-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9518D65821D48B9500E047A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9518D67A21D579FE00E047A6 /* DestinationViewController.swift in Sources */,
+				9518D67221D5797000E047A6 /* LoginViewController.swift in Sources */,
 				9518D66221D48B9500E047A6 /* ViewController.swift in Sources */,
+				9518D68D21D5901D00E047A6 /* HistoryViewController.swift in Sources */,
+				9518D67E21D57A2E00E047A6 /* EarnedPointsViewController.swift in Sources */,
+				9518D68F21D5902B00E047A6 /* ChangePassViewController.swift in Sources */,
+				9518D69121D5903500E047A6 /* ChangeEmailViewController.swift in Sources */,
+				9518D68421D57A7500E047A6 /* CameraViewController.swift in Sources */,
+				9518D67621D579D200E047A6 /* ProfileMainViewController.swift in Sources */,
+				9518D67421D579BD00E047A6 /* SignUpViewController.swift in Sources */,
+				9518D67821D579EF00E047A6 /* BikeWalkViewController.swift in Sources */,
+				9518D68821D57AB300E047A6 /* SettingsViewController.swift in Sources */,
 				9518D66021D48B9500E047A6 /* AppDelegate.swift in Sources */,
+				9518D68621D57A9400E047A6 /* VerifyingReciptViewController.swift in Sources */,
+				9518D68021D57A4600E047A6 /* EcoPurchaseHomeViewController.swift in Sources */,
+				9518D68B21D5900A00E047A6 /* BankAccountViewController.swift in Sources */,
+				9518D67C21D57A0B00E047A6 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +429,11 @@
 		};
 		9518D66F21D48B9800E047A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F53D1881AD684DF7F419ED1 /* Pods-EcoPoints.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EcoPoints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +441,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarieOw.EcoPoints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +449,11 @@
 		};
 		9518D67021D48B9800E047A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632E1854C2428DE5B4FAC988 /* Pods-EcoPoints.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EcoPoints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +461,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarieOw.EcoPoints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
