@@ -7,9 +7,26 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SideMenuViewController: UITableViewController {
-
+    
+    
+    @IBAction func logOutAction(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        }
+        catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+        self.navigationController?.popToRootViewController(animated:true)
+        
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let initial = storyboard.instantiateInitialViewController()
+//        UIApplication.shared.keyWindow?.rootViewController = initial
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
