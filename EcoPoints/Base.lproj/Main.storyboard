@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -95,14 +95,10 @@
                         <color key="backgroundColor" red="0.2588459206" green="1" blue="0.84580059590000001" alpha="0.78113996480000003" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <segue destination="mvG-U1-qwg" kind="presentation" identifier="mainToSign" id="a3j-8v-VcU"/>
-                        <segue destination="xrY-6Y-V5K" kind="presentation" identifier="MainToLog" id="k3M-Zk-ME2"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="73" y="-2896"/>
+            <point key="canvasLocation" x="342" y="-2943"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="bmD-5A-jLh">
@@ -149,6 +145,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginAction:" destination="xrY-6Y-V5K" eventType="touchUpInside" id="ucE-iO-k37"/>
+                                    <segue destination="anU-Xy-Ixi" kind="presentation" identifier="loginToProfile" id="IQD-fT-CKN"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dRH-qf-tmE">
@@ -166,7 +163,6 @@
                     <connections>
                         <outlet property="email" destination="FAp-Ql-gnR" id="x2B-Cz-MvU"/>
                         <outlet property="password" destination="xRk-j3-HK5" id="oA0-tr-Hlf"/>
-                        <segue destination="anU-Xy-Ixi" kind="presentation" identifier="LoginToProfile" id="vUe-KQ-ii8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XA3-rT-hiO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -389,6 +385,7 @@
                                 </state>
                                 <connections>
                                     <action selector="signUpAction:" destination="mvG-U1-qwg" eventType="touchUpInside" id="Raf-xM-2jO"/>
+                                    <segue destination="anU-Xy-Ixi" kind="presentation" identifier="signToProfile" id="vaJ-X3-uao"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDX-K6-DJp">
@@ -413,7 +410,6 @@
                         <outlet property="email" destination="ie6-Ac-hY9" id="QvU-7O-qjl"/>
                         <outlet property="password" destination="e0v-56-9Aa" id="3CC-Uw-zT4"/>
                         <outlet property="passwordConfirm" destination="GYH-zn-BdP" id="DKb-Rd-Li0"/>
-                        <segue destination="anU-Xy-Ixi" kind="presentation" identifier="SignUpToProfile" id="D0o-OS-pgt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vl4-IU-Sph" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -422,9 +418,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WR0-51-2LL"/>
         <segue reference="juf-Yy-K5C"/>
-        <segue reference="vUe-KQ-ii8"/>
-        <segue reference="k3M-Zk-ME2"/>
+        <segue reference="vaJ-X3-uao"/>
     </inferredMetricsTieBreakers>
 </document>
