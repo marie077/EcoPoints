@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import SideMenu
 
 class ProfileMainViewController: UIViewController {
-
+   
+    
+    
     override func viewDidLoad() {
+        SideMenuManager.default.menuPresentMode = .menuSlideIn
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
