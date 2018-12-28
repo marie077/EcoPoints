@@ -318,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNI-td-T4J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1330" y="-1350"/>
+            <point key="canvasLocation" x="-750" y="-1186"/>
         </scene>
         <!--EcoPurchase View Controller-->
         <scene sceneID="mG9-jl-BRC">
@@ -384,9 +384,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GTc-pK-f7y"/>
                     </view>
-                    <connections>
-                        <segue destination="yKs-Tj-VyU" kind="presentation" identifier="PointsToMain" id="j7C-hi-o4Z"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5uI-I7-PuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
