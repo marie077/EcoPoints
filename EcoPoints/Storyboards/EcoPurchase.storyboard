@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--EcoPurchase View Controller-->
+        <scene sceneID="PKX-PI-tgU">
+            <objects>
+                <viewController storyboardIdentifier="EcoPurchaseHomeViewController" id="rWx-gU-NZR" userLabel="EcoPurchase View Controller" customClass="EcoPurchaseHomeViewController" customModule="EcoPoints" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DgQ-6B-StK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kni-ml-OqA"/>
+                    </view>
+                    <connections>
+                        <segue destination="jhL-1G-eRp" kind="presentation" identifier="PurchaseToCamera" id="1Oc-ON-xu4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VE3-k5-sF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="-430"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="CIK-0B-4zm">
+            <objects>
+                <viewController storyboardIdentifier="CameraViewController" id="jhL-1G-eRp" userLabel="Camera View Controller" customClass="CameraViewController" customModule="EcoPoints" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qTB-cn-nuU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nre-1W-aQb"/>
+                    </view>
+                    <connections>
+                        <segue destination="ZEg-SE-zfI" kind="presentation" identifier="CameraToVerify" id="SIv-Bl-2Zi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pmJ-BG-Bgg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="395"/>
+        </scene>
+        <!--Verification View Controller-->
+        <scene sceneID="VdG-nZ-MEf">
+            <objects>
+                <viewController storyboardIdentifier="VerifyingReciptViewController" id="ZEg-SE-zfI" userLabel="Verification View Controller" customClass="VerifyingReciptViewController" customModule="EcoPoints" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ro4-Um-DE0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2wh-gd-XFc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XJH-YM-s5E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="1194"/>
+        </scene>
+    </scenes>
+</document>

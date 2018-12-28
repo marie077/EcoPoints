@@ -31,6 +31,8 @@
 		9518D69121D5903500E047A6 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D69021D5903500E047A6 /* ChangeEmailViewController.swift */; };
 		957F41F821D69290001AC289 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F41F721D69290001AC289 /* SideMenu.storyboard */; };
 		957F41FB21D69DC5001AC289 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F41FA21D69DC5001AC289 /* SideMenuViewController.swift */; };
+		957F41FD21D6D0DB001AC289 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F41FC21D6D0DB001AC289 /* Authentication.storyboard */; };
+		957F41FF21D6D63F001AC289 /* EcoPurchase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F41FE21D6D63F001AC289 /* EcoPurchase.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		9518D69021D5903500E047A6 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
 		957F41F721D69290001AC289 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		957F41FA21D69DC5001AC289 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		957F41FC21D6D0DB001AC289 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		957F41FE21D6D63F001AC289 /* EcoPurchase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EcoPurchase.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 			children = (
 				957F41F721D69290001AC289 /* SideMenu.storyboard */,
 				9518D66321D48B9500E047A6 /* Main.storyboard */,
+				957F41FC21D6D0DB001AC289 /* Authentication.storyboard */,
+				957F41FE21D6D63F001AC289 /* EcoPurchase.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -218,8 +224,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957F41FD21D6D0DB001AC289 /* Authentication.storyboard in Resources */,
 				9511D83621D5B76F00C604B4 /* GoogleService-Info.plist in Resources */,
 				9518D66A21D48B9800E047A6 /* LaunchScreen.storyboard in Resources */,
+				957F41FF21D6D63F001AC289 /* EcoPurchase.storyboard in Resources */,
 				957F41F821D69290001AC289 /* SideMenu.storyboard in Resources */,
 				9518D66721D48B9800E047A6 /* Assets.xcassets in Resources */,
 				9518D66521D48B9500E047A6 /* Main.storyboard in Resources */,
