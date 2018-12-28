@@ -29,7 +29,7 @@
 		9518D68D21D5901D00E047A6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68C21D5901D00E047A6 /* HistoryViewController.swift */; };
 		9518D68F21D5902B00E047A6 /* ChangePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D68E21D5902B00E047A6 /* ChangePassViewController.swift */; };
 		9518D69121D5903500E047A6 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518D69021D5903500E047A6 /* ChangeEmailViewController.swift */; };
-		957F41F821D69290001AC289 /* SideMenuStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F41F721D69290001AC289 /* SideMenuStoryboard.storyboard */; };
+		957F41F821D69290001AC289 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957F41F721D69290001AC289 /* SideMenu.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +59,7 @@
 		9518D68C21D5901D00E047A6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		9518D68E21D5902B00E047A6 /* ChangePassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassViewController.swift; sourceTree = "<group>"; };
 		9518D69021D5903500E047A6 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
-		957F41F721D69290001AC289 /* SideMenuStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenuStoryboard.storyboard; sourceTree = "<group>"; };
+		957F41F721D69290001AC289 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +140,7 @@
 		957F41F921D692A0001AC289 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				957F41F721D69290001AC289 /* SideMenuStoryboard.storyboard */,
+				957F41F721D69290001AC289 /* SideMenu.storyboard */,
 				9518D66321D48B9500E047A6 /* Main.storyboard */,
 			);
 			path = Storyboards;
@@ -217,7 +217,7 @@
 			files = (
 				9511D83621D5B76F00C604B4 /* GoogleService-Info.plist in Resources */,
 				9518D66A21D48B9800E047A6 /* LaunchScreen.storyboard in Resources */,
-				957F41F821D69290001AC289 /* SideMenuStoryboard.storyboard in Resources */,
+				957F41F821D69290001AC289 /* SideMenu.storyboard in Resources */,
 				9518D66721D48B9800E047A6 /* Assets.xcassets in Resources */,
 				9518D66521D48B9500E047A6 /* Main.storyboard in Resources */,
 			);
