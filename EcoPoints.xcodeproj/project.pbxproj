@@ -114,7 +114,6 @@
 				9518D69221D5904200E047A6 /* View Controllers */,
 				9518D65F21D48B9500E047A6 /* AppDelegate.swift */,
 				9518D66621D48B9800E047A6 /* Assets.xcassets */,
-				9518D66821D48B9800E047A6 /* LaunchScreen.storyboard */,
 				9518D66B21D48B9800E047A6 /* Info.plist */,
 			);
 			path = EcoPoints;
@@ -151,6 +150,7 @@
 				9518D66321D48B9500E047A6 /* Main.storyboard */,
 				957F41FC21D6D0DB001AC289 /* Profile.storyboard */,
 				957F41FE21D6D63F001AC289 /* EcoPurchase.storyboard */,
+				9518D66821D48B9800E047A6 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";

@@ -25,7 +25,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bJH-OO-LDC" kind="push" id="CeD-ZM-sU1"/>
+                                    <segue destination="bJH-OO-LDC" kind="show" id="CeD-ZM-sU1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbI-X6-buG">
@@ -36,7 +36,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="RsT-QZ-npx" kind="push" id="jAf-qF-FwD"/>
+                                    <segue destination="RsT-QZ-npx" kind="show" id="jAf-qF-FwD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ec" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge4-cB-g6H">
@@ -247,7 +247,6 @@
         <!--Navigation Controller-->
         <scene sceneID="eog-de-2Qd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FCW-gC-q53" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="liA-Pz-Y7f" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7ML-gT-Uej">
@@ -262,6 +261,7 @@
                         <segue destination="RL0-jC-OGh" kind="relationship" relationship="rootViewController" id="Nqw-eG-wHv"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FCW-gC-q53" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="190" y="-2977"/>
         </scene>

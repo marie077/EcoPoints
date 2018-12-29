@@ -14,8 +14,8 @@ class ProfileMainViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        SideMenuManager.default.menuPresentMode = .menuSlideIn
         super.viewDidLoad()
+        SideMenuManager.default.menuPresentMode = .menuSlideIn
 
         // Do any additional setup after loading the view.
     }
