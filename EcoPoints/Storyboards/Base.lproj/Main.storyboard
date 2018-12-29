@@ -139,8 +139,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginAction:" destination="RsT-QZ-npx" eventType="touchUpInside" id="MuL-DN-G8s"/>
-                                    <segue destination="JZ9-QU-g1r" kind="presentation" identifier="loginToProfile" id="ePU-Fd-DbC"/>
+                                    <action selector="loginAction:" destination="RsT-QZ-npx" eventType="touchUpInside" id="yIO-T5-L7x"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -151,6 +150,7 @@
                     <connections>
                         <outlet property="email" destination="UDv-DM-OY8" id="LeG-rW-jUl"/>
                         <outlet property="password" destination="Jpk-zJ-09e" id="rod-aV-Dex"/>
+                        <segue destination="JZ9-QU-g1r" kind="presentation" identifier="loginToProfile" id="vO4-90-Zpy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mbf-8G-aOn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -219,7 +219,6 @@
                                 </state>
                                 <connections>
                                     <action selector="signUpAction:" destination="bJH-OO-LDC" eventType="touchUpInside" id="UAO-CT-OTg"/>
-                                    <segue destination="JZ9-QU-g1r" kind="presentation" identifier="signToProfile" id="991-sL-Q81"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYL-7F-uFf">
@@ -238,6 +237,7 @@
                         <outlet property="email" destination="C1n-Pa-pdm" id="lDY-fz-jAa"/>
                         <outlet property="password" destination="ye1-wh-6ZM" id="RRq-Uc-gNg"/>
                         <outlet property="passwordConfirm" destination="Kdu-LA-y2N" id="Bua-mu-xlx"/>
+                        <segue destination="JZ9-QU-g1r" kind="presentation" identifier="signToProfile" id="i6C-uh-MZC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vIa-Ao-Yjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -267,6 +267,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ePU-Fd-DbC"/>
+        <segue reference="i6C-uh-MZC"/>
     </inferredMetricsTieBreakers>
 </document>

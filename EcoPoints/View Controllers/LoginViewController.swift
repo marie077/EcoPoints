@@ -15,14 +15,17 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     
     
-    
-    
     @IBAction func loginAction(_ sender: Any) {
+        print("1")
         Auth.auth().signIn(withEmail: email.text!, password: password.text!) { (user, error) in
+            
+        print("2")
             if error == nil{
+                print("3!!!!!")
                 self.performSegue(withIdentifier: "loginToProfile", sender: self)
             }
             else{
+                print("4")
                 let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                 let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                 
@@ -31,6 +34,8 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
