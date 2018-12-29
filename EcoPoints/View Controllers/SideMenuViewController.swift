@@ -19,11 +19,18 @@ class SideMenuViewController: UITableViewController {
         catch let signOutError as NSError {
             print ("Error signing out: %@", signOutError)
         }
-        self.navigationController?.popToRootViewController(animated:true)
+        self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
+//        self.performSegue(withIdentifier: "unwindToWelcomeViewController", sender: self)
+//        UIApplication.shared.keyWindow?.rootViewController?.dismiss(animated: false, completion: nil)
+
+//        self.view.window?.rootViewController?.dismiss(animated: true, completion: (() -> Void)? {
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//            let initial = storyboard.instantiateInitialViewController()
+//            UIApplication.shared.keyWindow?.rootViewController = initial
+//        })
+//        self.navigationController?.popToRootViewController(animated:true)
         
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let initial = storyboard.instantiateInitialViewController()
-//        UIApplication.shared.keyWindow?.rootViewController = initial
+
     }
     
     override func viewDidLoad() {
