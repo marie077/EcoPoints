@@ -101,12 +101,14 @@ PODS:
   - nanopb/encode (0.3.901)
   - Protobuf (3.6.1)
   - SideMenu (5.0.3)
+  - UICircularProgressRing (4.1.0)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
   - SideMenu
+  - UICircularProgressRing
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -127,6 +129,7 @@ SPEC REPOS:
     - nanopb
     - Protobuf
     - SideMenu
+    - UICircularProgressRing
 
 SPEC CHECKSUMS:
   BoringSSL: e10f92a27043805c01071fe815a5cd98ae8212e7
@@ -146,7 +149,8 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  UICircularProgressRing: 5a32c01f54474571b1e66e8fa050c0f83d6d981b
 
-PODFILE CHECKSUM: 8f9b9965cb7103f0a875acc9cfaaba2b972241c0
+PODFILE CHECKSUM: f2235aecd5776d72d8b1cef9f25622c8fe3f1c55
 
 COCOAPODS: 1.5.3

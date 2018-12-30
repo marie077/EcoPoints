@@ -11,13 +11,11 @@ target 'EcoPoints' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'SideMenu'
+  pod 'UICircularProgressRing'
 
   source 'https://github.com/CocoaPods/Specs.git'
   platform :ios, '10.0'
-  use_frameworks!
-
-
-
+  
   # For Swift 4 (no longer maintained), use:
   # pod 'SideMenu', '~> 4.0.0'
 

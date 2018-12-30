@@ -28,17 +28,36 @@
                                     <segue destination="q0u-65-qgR" kind="show" identifier="" id="nVL-nG-sHd"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kTo-Nd-4Um" customClass="UICircularProgressRing" customModule="UICircularProgressRing">
+                                <rect key="frame" x="52" y="221" width="270" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="fullCircle" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ibRingStyle">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsValueKnob" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="outerRingColor">
+                                        <color key="value" red="0.96230453167810404" green="1" blue="0.62054802409672394" alpha="0.78113996480000003" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.2588459206" green="1" blue="0.84580059590000001" alpha="0.78113996480000003" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="FNL-2w-pO5"/>
                     </view>
                     <connections>
+                        <outlet property="progressRing" destination="kTo-Nd-4Um" id="5GH-sx-Pde"/>
                         <segue destination="b2U-SP-IiL" kind="presentation" identifier="ProfileToBikeWalk" id="V7u-eM-NtH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sg3-lP-0Hh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-820" y="-1178"/>
+            <point key="canvasLocation" x="-820" y="-1178.8605697151424"/>
         </scene>
         <!--SideMenuNavigation-->
         <scene sceneID="VcW-sz-ohh">
