@@ -35,7 +35,7 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="fullCircle" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="ibRingStyle">
-                                        <integer key="value" value="2"/>
+                                        <integer key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="showsValueKnob" value="NO"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
@@ -43,6 +43,12 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="outerRingColor">
                                         <color key="value" red="0.96230453167810404" green="1" blue="0.62054802409672394" alpha="0.78113996480000003" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="innerRingColor">
+                                        <color key="value" red="0.96230453169999997" green="1" blue="0.62054802409999998" alpha="0.78113996480000003" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="outerBorderColor">
+                                        <color key="value" red="0.96230453169999997" green="1" blue="0.62054802409999998" alpha="0.78113996480000003" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
