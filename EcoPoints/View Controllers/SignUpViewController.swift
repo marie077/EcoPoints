@@ -8,9 +8,11 @@
 
 import UIKit
 import FirebaseAuth
+import Firebase
 
 class SignUpViewController: UIViewController {
     
+    var db: Firestore!
     
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
@@ -29,6 +31,26 @@ class SignUpViewController: UIViewController {
         else{
             Auth.auth().createUser(withEmail: email.text!, password: password.text!){ (user, error) in
                 if error == nil {
+                    // Add a new document with a generated ID
+                    var ref: DocumentReference? = nil
+                    ref = self.db.collection("users").addDocument(data: [
+                        "firstName": self.firstName.text ?? "",
+                        "lastName": self.lastName.text ?? "",
+                        "email": self.email.text ?? "",
+                        "password": self.password.text ?? "",
+                        "points": 0.0,
+                        "activityHistory": [
+                            "walkHistory": [],
+                            "bikeHistory": [],
+                        ],
+                        "createdAt": FieldValue.serverTimestamp(),
+                    ]) { err in
+                        if let err = err {
+                            print("Error adding new user document: \(err)")
+                        } else {
+                            print("New User Document added with ID: \(ref!.documentID)")
+                        }
+                    }
                     self.performSegue(withIdentifier: "signToProfile", sender: self)
                 }
                 else{
@@ -46,6 +68,12 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let settings = FirestoreSettings()
+        
+        Firestore.firestore().settings = settings
+        // [END setup]
+        db = Firestore.firestore()
     }
     
 
